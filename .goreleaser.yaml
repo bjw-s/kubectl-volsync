@@ -1,11 +1,14 @@
+# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
+version: 2
+
 project_name: kubectl-volsync
 
 changelog:
-  skip: true
+  disable: true
 
 krews:
   - name: volsync
-    index:
+    repository:
       owner: "bjw-s"
       name: "kubectl-volsync"
     homepage: https://github.com/backube/volsync
